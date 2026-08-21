@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-body: 'Noto Sans KR', system-ui, sans-serif;
+  --font-heading: 'Noto Sans KR', system-ui, sans-serif;
+  --font-label: 'Noto Sans KR', system-ui, sans-serif;
+
+  --background-50: 0.992 0.004 90;
+  --background-100: 0.975 0.008 90;
+  --background-200: 0.945 0.014 90;
+  --background-300: 0.900 0.020 90;
+  --background-400: 0.820 0.025 90;
+  --background-500: 0.740 0.028 90;
+  --background-600: 0.640 0.026 90;
+  --background-700: 0.530 0.022 90;
+  --background-800: 0.420 0.016 90;
+  --background-900: 0.320 0.011 90;
+  --background-950: 0.235 0.008 90;
+
+  --accent-50: 0.980 0.020 80;
+  --accent-100: 0.950 0.050 80;
+  --accent-200: 0.900 0.090 80;
+  --accent-300: 0.850 0.130 80;
+  --accent-400: 0.790 0.160 80;
+  --accent-500: 0.730 0.170 80;
+  --accent-600: 0.630 0.160 80;
+  --accent-700: 0.520 0.140 80;
+  --accent-800: 0.420 0.110 80;
+  --accent-900: 0.330 0.080 80;
+  --accent-950: 0.240 0.050 80;
+
+  --primary-50: 0.975 0.025 155;
+  --primary-100: 0.940 0.050 155;
+  --primary-200: 0.890 0.080 155;
+  --primary-300: 0.820 0.110 155;
+  --primary-400: 0.720 0.140 155;
+  --primary-500: 0.620 0.160 155;
+  --primary-600: 0.520 0.150 155;
+  --primary-700: 0.430 0.130 155;
+  --primary-800: 0.350 0.100 155;
+  --primary-900: 0.280 0.070 155;
+  --primary-950: 0.210 0.045 155;
+
+  --secondary-50: 0.980 0.012 130;
+  --secondary-100: 0.955 0.030 130;
+  --secondary-200: 0.910 0.055 130;
+  --secondary-300: 0.850 0.075 130;
+  --secondary-400: 0.750 0.085 130;
+  --secondary-500: 0.650 0.085 130;
+  --secondary-600: 0.550 0.075 130;
+  --secondary-700: 0.450 0.060 130;
+  --secondary-800: 0.360 0.045 130;
+  --secondary-900: 0.285 0.030 130;
+  --secondary-950: 0.220 0.020 130;
+
+  --foreground-50: 0.985 0.004 75;
+  --foreground-100: 0.965 0.007 75;
+  --foreground-200: 0.925 0.012 75;
+  --foreground-300: 0.870 0.018 75;
+  --foreground-400: 0.750 0.025 75;
+  --foreground-500: 0.640 0.030 75;
+  --foreground-600: 0.520 0.028 75;
+  --foreground-700: 0.410 0.024 75;
+  --foreground-800: 0.300 0.018 75;
+  --foreground-900: 0.215 0.013 75;
+  --foreground-950: 0.150 0.010 75;
+}
+
+body {
+  font-family: var(--font-body);
+  color: oklch(var(--foreground-900));
+  background-color: oklch(var(--background-50));
+  -webkit-font-smoothing: antialiased;
+}
