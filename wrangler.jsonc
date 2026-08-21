@@ -3,7 +3,7 @@
   "name": "academiadministrator-homepage77",
   "compatibility_date": "2026-08-21",
   "assets": {
-    "directory": "./dist",
+    "directory": "./out",
     "not_found_handling": "single-page-application"
   }
 }
